@@ -1,0 +1,81 @@
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    background-image: url('/img/blur.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    align-items: center;
+}
+
+/* Set Color */
+:root {
+    --black-color: #200E32;
+    --primary-color: #3276D4;
+    --white-color: #FFFFFF;
+    --gray-color: #8F8599;
+}
+
+.container {
+    margin: 50px;
+}
+
+/* Strta Content Section */
+    .category-icon img {
+        width: 24px;
+    }
+
+    .category-icon img:hover {
+        -webkit-transform: scale(1.1);
+    }
+
+    .right {
+        display: flex;
+    }
+
+    .hiro-img img {
+        width: 576px;
+        height: 575px;
+        object-fit: cover;
+        border-radius: 19px;
+        margin-left: 100px;
+    }
+
+    .logo h4 {
+        font-size: 24px;
+        color: var(--black-color);
+    }
+
+    .hiro-text h3 {
+        font-size: 72px;
+        line-height: 97px;
+        width: 375px;
+        margin-top: 100px;
+    }
+
+    .hiro-text p {
+        font-size: 20px;
+        color: var(--gray-color);
+        line-height: 36px;
+        font-weight: 300;
+        width: 396px;
+    }
+
+    button.btn {
+        background-color: var(--primary-color) !important;
+        border-radius: .5rem !important;
+        padding: 15px 40px;
+        transition: transform .2s;
+    }
+
+    button.btn:hover {
+        -webkit-transform: scale(1.1);
+        background-color: #3C7EDB;
+    }
+
+    button.btn .right-icon {
+        display: inline-block;
+        margin-left: 19px;
+    }
+/* End Content Section */
